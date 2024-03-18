@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/icon.jpeg" />
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <header>
+      <h1><img class="logo" src="/images/icon.jpeg" alt="" /></h1>
+      <input class="search" type="text" placeholder="Search Product" />
+      <div>
+        <button class="bn5" id="open-btn">Basket</button>
+        <button class="bn5">sign in</button>
+        <button class="bn5">Login</button>
+      </div>
+    </header>
+    <main>
+      <!-- Categories -->
+      <div class="category-wrapper">
+        <h1>Categories</h1>
+        <div class="categories"></div>
+      </div>
+      <!--Products-->
+      <div class="product-wrapper">
+        <h1>Prodacts</h1>
+        <div class="products"></div>
+      </div>
+
+      <div class="modal-wrapper">
+        <div class="modal">
+          <img id="close-btn" src="/images/close.png" />
+          <div class="modal-list"></div>
+
+          <div class="total"><span id="modal-info"> 0 </span> $</div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
